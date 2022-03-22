@@ -23,6 +23,10 @@ body{
         background-repeat: no-repeat;
     }
     
+.app-name{
+    text-decoration: none;
+}
+
     h3{
             margin-left: 8px;
         font-family: sans-serif;
@@ -112,9 +116,14 @@ background: #ff574a;
     box-shadow: turquoise 0px 7px 9px 0px;
 
 }
+
+#count{
+    color: rgb(22, 245, 171);
+}
+
 .counter p{
     text-align: center;
-    font-size: 8rem;
+    font-size: 2rem;
     font-weight: 300;
     line-height: 1;
     padding:30px;
@@ -134,18 +143,19 @@ background: #ff574a;
 
 }
 
-.counter button#sub:hover{
+.counter button#decrease:hover{
     padding: 4px;
     border: none;
     border-radius: 12px;
     background:red;
 }
 
-.counter button#add:hover{
+.counter button#increase:hover{
     padding: 6px;
     border: none;
     border-radius: 12px;
     background: green;
+    cursor: cell;
 }
 
 
@@ -167,3 +177,64 @@ background: #ff574a;
        margin-right: 20px;
        text-align: justify;
    }
+
+   /* footer */
+    
+   .footer-background{
+    background-color: rgb(114, 194, 40);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    margin: 20px 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgb(255, 255, 255);
+ } 
+
+ .app-name-footer{
+    font-size: 3px;
+ }
+
+ .logo-copyright{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: left;
+    
+ }
+
+ .social-media-icons{
+     height: 25px;
+     width: 25px;
+     justify-content: space-around;
+
+ }
+
+ .social-media-icons:hover{
+     box-shadow: 2px 7px 10px 2px rgba(255, 21, 21, 0.384);
+ }
+
+ .for-query{
+     margin-left:30px;
+     margin-right: 30px;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .social-media-container{
+     /* margin-left: 40px; */
+padding-right: 7px;
+
+ }
+
+ .social-icons-position{
+
+  padding: 6px;
+ }
+
+ .email{
+     color: blueviolet;
+ }
