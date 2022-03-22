@@ -10,11 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-<link rel="manifest" href="favicon_io/site.webmanifest">
-
+  
     <title>Counter App</title>
     
 </head>
@@ -23,7 +19,7 @@
     <!-- hEAD AND MENU BAR -->
     <section class="header">
         <nav>
-            <h3>COUNTE <strong>R</strong></h3>
+         <a class="app-name" href="index.html">  <h3>COUNTE <strong>R</strong></h3></a> 
            <div class="nav-links">
                <ul>
                    <li><a href="m">Home</a></li>
@@ -39,11 +35,11 @@
 
 <div class="container">
     <div class="counter">
-       <p id="count">0</p>
+       <p >You Clicked Button  <span id="count"> 0</span> times</p>
        <div class="buttons">
-           <button id="sub">decrease</button>
+           <button id="decrease">decrease</button>
            <button id="reset">Reset</button>
-           <button id="add">increases</button>
+           <button id="increase">increase</button>
        </div>
     </div>
 </div>
@@ -75,8 +71,43 @@ Create the structure of counter
 
 Here, we will use HTML code to create the simple counter design divided into four sections to display four different statistics of the website. For this example, we will use fontawesome icons to represent different functions.
 
+ </p>
+   
+<!-- Footer -->
 
-    </p>
+    <footer>
+        <div class="footer-background" >
+
+            <div class="logo-copyright">
+                <a class="app-name-footer" href="index.html">  <h3>COUNTE <strong>R</strong></h3></a>
+           <span> © 2022 Counter App . <br> All Right Reserved</span>
+            </div>
+
+         <div class="for-query">
+             <span>For any Query Contact us <br>+91-7053307842 <br> <a class="email" href="mailto:hanzalaansari26@gmail.com">hanzalaansari26@gmail.com</a></span>
+         </div>
+
+         <div class="social-media-container">
+             <span>Connect with us</span><br>
+             <div class="social-icons-position">
+            <span> <a class="social-icon-hover" href="http://t.me/MdHanzala"><img class="social-media-icons" src="image/social/telegram-svgrepo-com.svg" ></a></span>
+
+             
+            <span> <a class="social-icon-hover" href=""><img class="social-media-icons" src="image/social/facebook-svgrepo-com.svg" ></a></span>
+
+            
+            <span><a class="social-icon-hover" href=""><img class="social-media-icons" src="image/social/instagram-svgrepo-com.svg" ></a></span>
+
+             
+            <span> <a class="social-icon-hover" href="https://wa.link/xals3q"><img class="social-media-icons" src="image/social/whatsapp-svgrepo-com.svg" ></a></span>
+
+            <span> <a class="social-icon-hover" href="https://github.com/hanzala2626/Meal-finder.git"><img class="social-media-icons" src="image/social/github-svgrepo-com.svg" ></a></span>
+       </div> 
+     </div>
+
+        </div>
+    </footer>
+
 
     <script src="index.js"></script>
 </body>
