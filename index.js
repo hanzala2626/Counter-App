@@ -1,17 +1,22 @@
 const count = document.getElementById('count');
-const add = document.getElementById('add');
-const sub = document.getElementById('sub');
+const increase = document.getElementById('increase');
+const decrease = document.getElementById('decrease');
 const reset = document.getElementById('reset');
 
-add.addEventListener('click',()  =>{
+increase.addEventListener('click',()  =>{
 count.innerHTML++;
 applyColor()
 });
 
 
-sub.addEventListener('click',()  =>{
-    count.innerHTML--;
-    applyColor()
+decrease.addEventListener('click',()  =>{
+    if(count.innerHTML==0){
+        document.getElementById('decrease').disable=true;
+    }else{
+          count.innerHTML--;
+}
+applyColor()
+    
     });
 
    reset.addEventListener('click',()  =>{
