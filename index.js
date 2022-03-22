@@ -15,6 +15,7 @@ decrease.addEventListener('click',()  =>{
     }else{
           count.innerHTML--;
 }
+    
 applyColor()
     
     });
